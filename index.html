@@ -6,38 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
     <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1 class="title">CALCULATOR</h1>
-    <div class="main_container">
-        <div class="main_inputs">
-            <p>First Number</p>
-            <input class="n1" type="text" placeholder="Write your number here">
-            <p>Second Number</p>
-            <input class="n2" type="text" placeholder="Write your number here">
-            <p>Select action</p>
-            <button onclick="Sumar()">Sumar</button>
-            <button onclick="Restar()">Restar</button>
-            <button onclick="Multiplicar()">Multiplicar</button>
-            <button onclick="Dividir()">Dividir</button>
+    <div class="container_general">
+        <div class="container_title">
+            <h1 class="title">CALCU</h1>
+            <h1 class="title">LATOR</h1>
         </div>
-        <div class="main_results">
-            <div class="main_result_n1">
-                <p>Number 1</p>
-                <p class="text_n1"></p>
+        <div class="main_container">
+            <div class="main_inputs">
+                <p>First Number</p>
+                <input class="n1" type="text">
+                <p>Second Number</p>
+                <input class="n2" type="text">
+                <p>Select action</p>
+
+                <div class="container_button">
+                    <button class="sumar_button">Sumar</button>
+                    <button class="restar_button" >Restar</button>
+                    <button class="multiplicar_button">Multiplicar</button>
+                    <button class="dividir_button">Dividir</button>
+                </div>
+ 
             </div>
-            <div class="main_result_n2">
-                <p>Number 2</p>
-                <p class="text_n2"></p>
+            <div class="main_results">
+                <div class="results_container">
+                    <div class="main_result_n1">
+                        <p>Number 1</p>
+                        <p class="text_n1">000</p>
+                    </div>
+                    <div class="main_result_n2">
+                        <p>Number 2</p>
+                        <p class="text_n2">000</p>
+                    </div>
+                    <div class="main_result">
+                        <p>Result</p>
+                        <p class="text_result">000</p>
+                    </div>
+                    <button class="button_reset">RESET</button>
+                </div>
             </div>
-            <div class="main_result">
-                <p>Result</p>
-                <p class="text_result"></p>
-            </div>
-            <button onclick="Reset()">RESET</button>
         </div>
     </div>
-
+    <div class="footer">Challenge by <a target="_blank" href="https://www.frontendmentor.io">Frontend Mentor</a>. Coded by <a target="_blank" href="https://github.com/haroldom">Harold Ormeño</a>.</div>
     <script src="./main.js"></script>
 </body>
-</html>
+</html> 
