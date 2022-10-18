@@ -150,6 +150,12 @@ body{
     color: #3e52a3;
 }
 
+.main_inputs input.error{
+    border: 1px solid rgb(245, 85, 85);
+}
+.main_inputs input.error:focus{
+    outline: 1.5px solid rgb(245, 85, 85);
+}
 
 @media screen and (max-width:375px){
 /* *{
