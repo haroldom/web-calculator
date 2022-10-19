@@ -2,7 +2,6 @@
 ![MIT License](https://img.shields.io/github/license/haroldom/web-calculator?style=for-the-badge)
 ![Github repo size](https://img.shields.io/github/repo-size/haroldom/web-calculator?style=for-the-badge)
 
-<!-- ABOUT THE PROJECT -->
 ## Web Calculator with JS
 [![randommm.gif](https://s4.gifyu.com/images/randommm.gif)](https://gifyu.com/image/S9f2u)
 
@@ -38,13 +37,11 @@ If you want to download the files from this repository, you can:
 
 
 
-<!-- USAGE EXAMPLES -->
 ## Usage
 At the moment, this application is not online, I hope that soon I will be able to add a link for you to visit the website:)
 
 
 
-<!-- CONTRIBUTING -->
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -58,16 +55,11 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
 ## Contact
 
 Harold Ormeño- [@Harold_om3](https://twitter.com/Harold_om3) - h4roldsmail@gmail.com
