@@ -68,7 +68,7 @@ Project Link: [https://github.com/haroldom/web-calculator](https://github.com/ha
 
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+This project would not be possible without their help, thanks to this page I was able to get an idea and start the challenge.
 
 * [Frontend Mentor](https://frontendmentor.io)
 * [Tip Calculator App](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX)
